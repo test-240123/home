@@ -25,7 +25,7 @@
         }
         
         body {
-            background-image: url('');
+            background-color:black;
             background-size: 100% 100%;
             animation: gradient 15s ease infinite;
         }
@@ -93,5 +93,9 @@
 
         <button id="button"><a href=/radio> Radio </a></button><br>
     <input type="input" id="stuff" placeholder="#"></input><button type="button" onClick="document.cookie = `score=${document.getElementById('stuff').value}`">button</button>
+    <p id="242323">f</p>
   </body>
+  <script>
+  document.getElementById('242323').innerText = document.cookie
+  </script>
 </html>
